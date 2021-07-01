@@ -1,0 +1,19 @@
+<head>
+    <script type="module">
+        import { ValidationCorePlugin } from '../definitions.js';
+
+        var validationCorePlugin = ValidationCorePlugin();
+        const { value } = await validationCorePlugin.setup({ trustlistUrl: 'https://dgc.a-sit.at/ehn/cert/listv2', signatureUrl: 'https://dgc.a-sit.at/ehn/cert/sigv2', trustAnchor: "" });
+        console.log('Response from native:', value);
+
+        const doOnClick = function() {
+        const { result } = await validationCorePlugin.validate({ qrString: ''});
+        console.log('Result:', result)
+        }
+        doOnClick();
+    </script>
+</head>
+<body>
+    <div style="font-size:400%; width:100%">This is a simple text</div>
+</body>
+

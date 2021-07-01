@@ -1,0 +1,6 @@
+{
+	"appId": "at.asitplus.validationcoreplugin",
+	"appName": "App",
+	"webDir": "build",
+	"bundledWebRuntime": false
+}
