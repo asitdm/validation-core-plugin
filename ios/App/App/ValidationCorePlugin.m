@@ -11,4 +11,5 @@
 CAP_PLUGIN(ValidationCorePlugin, "ValidationCorePlugin",
            CAP_PLUGIN_METHOD(setup, CAPPluginReturnNone);
            CAP_PLUGIN_METHOD(validate, CAPPluginReturnPromise);
+           CAP_PLUGIN_METHOD(updateTrustlist, CAPPluginReturnPromise);
 )

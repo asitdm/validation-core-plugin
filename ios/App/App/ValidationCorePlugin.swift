@@ -26,4 +26,10 @@ public class ValidationCorePlugin: CAPPlugin {
             call.resolve(["result": result])
         })
     }
+    
+    @objc func updateTrustlist(_ call: CAPPluginCall) {
+        validationCore?.updateTrustlist { error in
+            call.resolve(["error": error?.rawValue])
+        }
+    }
 }
