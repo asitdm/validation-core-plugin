@@ -14,8 +14,8 @@
         "package": "base45-swift",
         "repositoryURL": "https://github.com/ehn-digital-green-development/base45-swift",
         "state": {
-          "branch": "distribution/swiftpackage",
-          "revision": "7c5d3e0640c7f0b949bba1905306867d06f2dbb3",
+          "branch": "main",
+          "revision": "b2fd6c1ff48f6ea1d2877368afd326700427f261",
           "version": null
         }
       },
@@ -26,6 +26,15 @@
           "branch": null,
           "revision": "e518eb6e362df327574ba5e04269cd6d29f40aec",
           "version": "3.7.2"
+        }
+      },
+      {
+        "package": "DccCachingService",
+        "repositoryURL": "https://github.com/ehn-dcc-development/DccCachingService.git",
+        "state": {
+          "branch": "main",
+          "revision": "a5540597b86645e956e18131af1b545d036c2038",
+          "version": null
         }
       },
       {
@@ -60,7 +69,7 @@
         "repositoryURL": "https://github.com/ehn-dcc-development/ValidationCore.git",
         "state": {
           "branch": "main",
-          "revision": "e990bb6ff3d1f426e6b44c9f572332dad7fa40a7",
+          "revision": "d09f9ec8069857f2e455ac359b9e4b6abdd239b1",
           "version": null
         }
       }

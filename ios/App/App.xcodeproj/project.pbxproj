@@ -18,6 +18,7 @@
 		878794E2268C77D8009B65AE /* ValidationCorePlugin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 878794E1268C77D8009B65AE /* ValidationCorePlugin.swift */; };
 		878794E5268C9693009B65AE /* ValidationCore in Frameworks */ = {isa = PBXBuildFile; productRef = 878794E4268C9693009B65AE /* ValidationCore */; };
 		878794EB268C9FED009B65AE /* definitions.js in Resources */ = {isa = PBXBuildFile; fileRef = 878794EA268C9FED009B65AE /* definitions.js */; };
+		87A4C63826E89582009412D1 /* DccCachingService in Frameworks */ = {isa = PBXBuildFile; productRef = 87A4C63726E89582009412D1 /* DccCachingService */; };
 		A084ECDBA7D38E1E42DFC39D /* Pods_App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF277DCFFFF123FFC6DF26C7 /* Pods_App.framework */; };
 /* End PBXBuildFile section */
 
@@ -46,6 +47,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				878794E5268C9693009B65AE /* ValidationCore in Frameworks */,
+				87A4C63826E89582009412D1 /* DccCachingService in Frameworks */,
 				A084ECDBA7D38E1E42DFC39D /* Pods_App.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -127,6 +129,7 @@
 			name = App;
 			packageProductDependencies = (
 				878794E4268C9693009B65AE /* ValidationCore */,
+				87A4C63726E89582009412D1 /* DccCachingService */,
 			);
 			productName = App;
 			productReference = 504EC3041FED79650016851F /* App.app */;
@@ -159,6 +162,7 @@
 			mainGroup = 504EC2FB1FED79650016851F;
 			packageReferences = (
 				878794E3268C9693009B65AE /* XCRemoteSwiftPackageReference "ValidationCore" */,
+				87A4C63626E89582009412D1 /* XCRemoteSwiftPackageReference "DccCachingService" */,
 			);
 			productRefGroup = 504EC3051FED79650016851F /* Products */;
 			projectDirPath = "";
@@ -443,6 +447,14 @@
 				kind = branch;
 			};
 		};
+		87A4C63626E89582009412D1 /* XCRemoteSwiftPackageReference "DccCachingService" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ehn-dcc-development/DccCachingService.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -450,6 +462,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 878794E3268C9693009B65AE /* XCRemoteSwiftPackageReference "ValidationCore" */;
 			productName = ValidationCore;
+		};
+		87A4C63726E89582009412D1 /* DccCachingService */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 87A4C63626E89582009412D1 /* XCRemoteSwiftPackageReference "DccCachingService" */;
+			productName = DccCachingService;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
